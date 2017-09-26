@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA7CB5A41F7AA8F7004A9EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5A31F7AA8F7004A9EEC /* AppDelegate.m */; };
-		FA7CB5A71F7AA8F7004A9EEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5A61F7AA8F7004A9EEC /* ViewController.m */; };
-		FA7CB5AA1F7AA8F7004A9EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7CB5A81F7AA8F7004A9EEC /* Main.storyboard */; };
+		B15AFCA159680AC0D65F328E /* libPods-PopMenuViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 439966C823B35C9F5C1CC499 /* libPods-PopMenuViewUITests.a */; };
+		B4973C61ED9B2EECDAC4157B /* libPods-PopMenuView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D6AB4A67D0973A47C331AA /* libPods-PopMenuView.a */; };
 		FA7CB5AC1F7AA8F7004A9EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7CB5AB1F7AA8F7004A9EEC /* Assets.xcassets */; };
 		FA7CB5AF1F7AA8F7004A9EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7CB5AD1F7AA8F7004A9EEC /* LaunchScreen.storyboard */; };
 		FA7CB5B21F7AA8F7004A9EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5B11F7AA8F7004A9EEC /* main.m */; };
 		FA7CB5BC1F7AA8F7004A9EEC /* PopMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5BB1F7AA8F7004A9EEC /* PopMenuViewTests.m */; };
 		FA7CB5C71F7AA8F7004A9EEC /* PopMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5C61F7AA8F7004A9EEC /* PopMenuViewUITests.m */; };
+		FA7CB5DB1F7AA938004A9EEC /* WQKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5D91F7AA938004A9EEC /* WQKAppDelegate.m */; };
+		FA7CB5E01F7AAB87004A9EEC /* WQKPopItemsMenuView.h in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5D51F7AA923004A9EEC /* WQKPopItemsMenuView.h */; };
+		FA7CB5E11F7AAB87004A9EEC /* WQKPopItemsMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5D61F7AA924004A9EEC /* WQKPopItemsMenuView.m */; };
+		FA7CB5E21F7AAB87004A9EEC /* WQKWeiBoPopMenuVC.h in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5D81F7AA92B004A9EEC /* WQKWeiBoPopMenuVC.h */; };
+		FA7CB5E31F7AAB87004A9EEC /* WQKWeiBoPopMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB5D71F7AA92B004A9EEC /* WQKWeiBoPopMenuVC.m */; };
+		FF16D2B61CD1BD487104C054 /* libPods-PopMenuViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFB7551A6057AA1E4D40B3C /* libPods-PopMenuViewTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		439966C823B35C9F5C1CC499 /* libPods-PopMenuViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopMenuViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE7183C8D54FC6BA00FA777 /* Pods-PopMenuViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuViewTests/Pods-PopMenuViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BFB7551A6057AA1E4D40B3C /* libPods-PopMenuViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopMenuViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5D697F466DB016C793D380 /* Pods-PopMenuView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuView/Pods-PopMenuView.debug.xcconfig"; sourceTree = "<group>"; };
+		94B33154A0475A84F31836E1 /* Pods-PopMenuViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuViewTests/Pods-PopMenuViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99D6AB4A67D0973A47C331AA /* libPods-PopMenuView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopMenuView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A377538F9C094ED8723739EE /* Pods-PopMenuViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuViewUITests/Pods-PopMenuViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AED33C29921FA775E878C0BD /* Pods-PopMenuView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuView.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuView/Pods-PopMenuView.release.xcconfig"; sourceTree = "<group>"; };
+		F2F0B02967C9F6F8989DA93C /* Pods-PopMenuViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuViewUITests/Pods-PopMenuViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA7CB59F1F7AA8F6004A9EEC /* PopMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA7CB5A21F7AA8F7004A9EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FA7CB5A31F7AA8F7004A9EEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA7CB5A51F7AA8F7004A9EEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA7CB5A61F7AA8F7004A9EEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FA7CB5A91F7AA8F7004A9EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA7CB5AB1F7AA8F7004A9EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7CB5AE1F7AA8F7004A9EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7CB5B01F7AA8F7004A9EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,13 @@
 		FA7CB5C21F7AA8F7004A9EEC /* PopMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7CB5C61F7AA8F7004A9EEC /* PopMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopMenuViewUITests.m; sourceTree = "<group>"; };
 		FA7CB5C81F7AA8F7004A9EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7CB5D51F7AA923004A9EEC /* WQKPopItemsMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQKPopItemsMenuView.h; sourceTree = "<group>"; };
+		FA7CB5D61F7AA924004A9EEC /* WQKPopItemsMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQKPopItemsMenuView.m; sourceTree = "<group>"; };
+		FA7CB5D71F7AA92B004A9EEC /* WQKWeiBoPopMenuVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQKWeiBoPopMenuVC.m; sourceTree = "<group>"; };
+		FA7CB5D81F7AA92B004A9EEC /* WQKWeiBoPopMenuVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQKWeiBoPopMenuVC.h; sourceTree = "<group>"; };
+		FA7CB5D91F7AA938004A9EEC /* WQKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQKAppDelegate.m; sourceTree = "<group>"; };
+		FA7CB5DA1F7AA938004A9EEC /* WQKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQKAppDelegate.h; sourceTree = "<group>"; };
+		FA7CB5E41F7AAC1A004A9EEC /* WQKHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQKHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4973C61ED9B2EECDAC4157B /* libPods-PopMenuView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF16D2B61CD1BD487104C054 /* libPods-PopMenuViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15AFCA159680AC0D65F328E /* libPods-PopMenuViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11C1077A3DCC81A4145413C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E5D697F466DB016C793D380 /* Pods-PopMenuView.debug.xcconfig */,
+				AED33C29921FA775E878C0BD /* Pods-PopMenuView.release.xcconfig */,
+				94B33154A0475A84F31836E1 /* Pods-PopMenuViewTests.debug.xcconfig */,
+				4AE7183C8D54FC6BA00FA777 /* Pods-PopMenuViewTests.release.xcconfig */,
+				F2F0B02967C9F6F8989DA93C /* Pods-PopMenuViewUITests.debug.xcconfig */,
+				A377538F9C094ED8723739EE /* Pods-PopMenuViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6A0C1C589870A48D842D260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D6AB4A67D0973A47C331AA /* libPods-PopMenuView.a */,
+				4BFB7551A6057AA1E4D40B3C /* libPods-PopMenuViewTests.a */,
+				439966C823B35C9F5C1CC499 /* libPods-PopMenuViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA7CB5961F7AA8F6004A9EEC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				FA7CB5BA1F7AA8F7004A9EEC /* PopMenuViewTests */,
 				FA7CB5C51F7AA8F7004A9EEC /* PopMenuViewUITests */,
 				FA7CB5A01F7AA8F6004A9EEC /* Products */,
+				11C1077A3DCC81A4145413C4 /* Pods */,
+				C6A0C1C589870A48D842D260 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +145,14 @@
 		FA7CB5A11F7AA8F7004A9EEC /* PopMenuView */ = {
 			isa = PBXGroup;
 			children = (
-				FA7CB5A21F7AA8F7004A9EEC /* AppDelegate.h */,
-				FA7CB5A31F7AA8F7004A9EEC /* AppDelegate.m */,
-				FA7CB5A51F7AA8F7004A9EEC /* ViewController.h */,
-				FA7CB5A61F7AA8F7004A9EEC /* ViewController.m */,
-				FA7CB5A81F7AA8F7004A9EEC /* Main.storyboard */,
+				FA7CB5D41F7AA90A004A9EEC /* PopMenu */,
 				FA7CB5AB1F7AA8F7004A9EEC /* Assets.xcassets */,
 				FA7CB5AD1F7AA8F7004A9EEC /* LaunchScreen.storyboard */,
 				FA7CB5B01F7AA8F7004A9EEC /* Info.plist */,
+				FA7CB5DA1F7AA938004A9EEC /* WQKAppDelegate.h */,
+				FA7CB5D91F7AA938004A9EEC /* WQKAppDelegate.m */,
 				FA7CB5B11F7AA8F7004A9EEC /* main.m */,
+				FA7CB5E41F7AAC1A004A9EEC /* WQKHeader.h */,
 			);
 			path = PopMenuView;
 			sourceTree = "<group>";
@@ -132,6 +175,17 @@
 			path = PopMenuViewUITests;
 			sourceTree = "<group>";
 		};
+		FA7CB5D41F7AA90A004A9EEC /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FA7CB5D51F7AA923004A9EEC /* WQKPopItemsMenuView.h */,
+				FA7CB5D61F7AA924004A9EEC /* WQKPopItemsMenuView.m */,
+				FA7CB5D81F7AA92B004A9EEC /* WQKWeiBoPopMenuVC.h */,
+				FA7CB5D71F7AA92B004A9EEC /* WQKWeiBoPopMenuVC.m */,
+			);
+			path = PopMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7CB5CB1F7AA8F7004A9EEC /* Build configuration list for PBXNativeTarget "PopMenuView" */;
 			buildPhases = (
+				76B5E4394A71A635D797DB2A /* [CP] Check Pods Manifest.lock */,
 				FA7CB59B1F7AA8F6004A9EEC /* Sources */,
 				FA7CB59C1F7AA8F6004A9EEC /* Frameworks */,
 				FA7CB59D1F7AA8F6004A9EEC /* Resources */,
+				EFB3ECAD4C93F644E77C9443 /* [CP] Embed Pods Frameworks */,
+				429977AD6E7D6D0B28E573C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7CB5CE1F7AA8F7004A9EEC /* Build configuration list for PBXNativeTarget "PopMenuViewTests" */;
 			buildPhases = (
+				5F50AF94650B4CEDD207024C /* [CP] Check Pods Manifest.lock */,
 				FA7CB5B31F7AA8F7004A9EEC /* Sources */,
 				FA7CB5B41F7AA8F7004A9EEC /* Frameworks */,
 				FA7CB5B51F7AA8F7004A9EEC /* Resources */,
+				523655959F94A4C81F6ECFF4 /* [CP] Embed Pods Frameworks */,
+				DC607A541FB57FEF1479AE95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7CB5D11F7AA8F7004A9EEC /* Build configuration list for PBXNativeTarget "PopMenuViewUITests" */;
 			buildPhases = (
+				7220081F7D699F3CF2B5472B /* [CP] Check Pods Manifest.lock */,
 				FA7CB5BE1F7AA8F7004A9EEC /* Sources */,
 				FA7CB5BF1F7AA8F7004A9EEC /* Frameworks */,
 				FA7CB5C01F7AA8F7004A9EEC /* Resources */,
+				A248B9C12EF9A1FEEE0C9645 /* [CP] Embed Pods Frameworks */,
+				201F3515BB0E020500C730C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +303,6 @@
 			files = (
 				FA7CB5AF1F7AA8F7004A9EEC /* LaunchScreen.storyboard in Resources */,
 				FA7CB5AC1F7AA8F7004A9EEC /* Assets.xcassets in Resources */,
-				FA7CB5AA1F7AA8F7004A9EEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +322,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		201F3515BB0E020500C730C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuViewUITests/Pods-PopMenuViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		429977AD6E7D6D0B28E573C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuView/Pods-PopMenuView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		523655959F94A4C81F6ECFF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuViewTests/Pods-PopMenuViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F50AF94650B4CEDD207024C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7220081F7D699F3CF2B5472B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76B5E4394A71A635D797DB2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A248B9C12EF9A1FEEE0C9645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuViewUITests/Pods-PopMenuViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC607A541FB57FEF1479AE95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuViewTests/Pods-PopMenuViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB3ECAD4C93F644E77C9443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuView/Pods-PopMenuView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA7CB59B1F7AA8F6004A9EEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7CB5A71F7AA8F7004A9EEC /* ViewController.m in Sources */,
+				FA7CB5E01F7AAB87004A9EEC /* WQKPopItemsMenuView.h in Sources */,
+				FA7CB5E11F7AAB87004A9EEC /* WQKPopItemsMenuView.m in Sources */,
+				FA7CB5E21F7AAB87004A9EEC /* WQKWeiBoPopMenuVC.h in Sources */,
+				FA7CB5E31F7AAB87004A9EEC /* WQKWeiBoPopMenuVC.m in Sources */,
+				FA7CB5DB1F7AA938004A9EEC /* WQKAppDelegate.m in Sources */,
 				FA7CB5B21F7AA8F7004A9EEC /* main.m in Sources */,
-				FA7CB5A41F7AA8F7004A9EEC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +506,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FA7CB5A81F7AA8F7004A9EEC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA7CB5A91F7AA8F7004A9EEC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA7CB5AD1F7AA8F7004A9EEC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,10 +623,12 @@
 		};
 		FA7CB5CC1F7AA8F7004A9EEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5D697F466DB016C793D380 /* Pods-PopMenuView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63S88Z2GR6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PopMenuView/WQKHeader.h";
 				INFOPLIST_FILE = PopMenuView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alex.PopMenuView;
@@ -442,10 +639,12 @@
 		};
 		FA7CB5CD1F7AA8F7004A9EEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED33C29921FA775E878C0BD /* Pods-PopMenuView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63S88Z2GR6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PopMenuView/WQKHeader.h";
 				INFOPLIST_FILE = PopMenuView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alex.PopMenuView;
@@ -456,6 +655,7 @@
 		};
 		FA7CB5CF1F7AA8F7004A9EEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B33154A0475A84F31836E1 /* Pods-PopMenuViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +671,7 @@
 		};
 		FA7CB5D01F7AA8F7004A9EEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE7183C8D54FC6BA00FA777 /* Pods-PopMenuViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +687,7 @@
 		};
 		FA7CB5D21F7AA8F7004A9EEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F0B02967C9F6F8989DA93C /* Pods-PopMenuViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63S88Z2GR6;
@@ -500,6 +702,7 @@
 		};
 		FA7CB5D31F7AA8F7004A9EEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A377538F9C094ED8723739EE /* Pods-PopMenuViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63S88Z2GR6;
