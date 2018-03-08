@@ -10,7 +10,9 @@
 
 #define tagBaseFlage 10000
 @interface WQKPopItemsMenuView ()
-
+{
+    dispatch_group_t _animationGroup;
+}
 @property (nonatomic, strong) UIButton *selectBtn;
 @property (nonatomic, strong) NSMutableArray <UIView *> *btnArray;
 
